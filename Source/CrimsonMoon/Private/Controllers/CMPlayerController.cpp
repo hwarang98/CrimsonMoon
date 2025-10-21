@@ -3,3 +3,7 @@
 
 #include "Controllers/CMPlayerController.h"
 
+UPawnUIComponent* ACMPlayerController::GetPawnUIComponent() const
+{
+	return nullptr;
+}

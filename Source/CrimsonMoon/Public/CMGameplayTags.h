@@ -4,8 +4,9 @@
 
 #include "NativeGameplayTags.h"
  
-namespace POGameplayTags
+namespace CMGameplayTags
 {
-	/* 테스트 태그 */
-	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Test_Foo);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Move);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Look);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Jump);
 }
