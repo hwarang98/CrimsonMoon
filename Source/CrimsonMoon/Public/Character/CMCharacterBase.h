@@ -22,6 +22,7 @@ class CRIMSONMOON_API ACMCharacterBase : public ACharacter, public IAbilitySyste
 public:
 	ACMCharacterBase();
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	// 테스트 푸시
 
 	/**
 	 * @brief 이 캐릭터의 공격 판정에 사용될 콜리전 박스를 반환합니다.
